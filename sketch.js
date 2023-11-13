@@ -111,7 +111,7 @@ class Bouncer {
   }
   glitchBefore(previous) {
     let size = (previous.size / sizeFactor);
-    blendMode(SCREEN);
+    blendMode(ADD);
     noFill();
     stroke(0, 255, 0);
     strokeWeight(10);
